@@ -1,0 +1,125 @@
+.fotter {
+  background-color: $theme4;
+  width: 100%;
+  padding: 2rem;
+  margin-top: 1rem;
+
+  .flogo {
+    width: 140px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .ftext {
+    color: $theme6;
+    font-size: 14px;
+    margin-top: 2rem;
+  }
+
+  @media(max-width:991px) {}
+}
+
+.fimages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+
+  .fimg-1 {
+    width: 160px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .fimg-2 {
+    width: 40px;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.ftitle {
+  color: $theme2;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: .5rem;
+}
+
+.fitem {
+  color: $theme6;
+  font-size: 14px;
+  margin-bottom: .5rem;
+  font-weight: 500;
+
+}
+
+.f-imgholder {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: baseline;
+
+  .ftext-4 {
+    color: $theme2;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .f-img {
+    width: 30px;
+    height: 30px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .fbtn {
+    border-radius: 5px;
+    background: $theme3;
+    color: $theme1;
+    text-align: center;
+    transition: .3s ease-in-out;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 100px;
+    height: 28.935px;
+    border: none;
+  }
+
+  .fbtn-2 {
+    border-radius: 5px;
+    background: #6f64e4;
+    color: $theme1;
+    text-align: center;
+    transition: .3s ease-in-out;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 100px;
+    height: 28.935px;
+    border: none;
+  }
+}
+
+.bottomfotter {
+  background-color: $theme4;
+  border-top: 1px solid $theme1;
+  padding: 12px 0;
+
+  .btext {
+    color: $theme2;
+  }
+}

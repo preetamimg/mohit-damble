@@ -1,0 +1,45 @@
+.navTab {
+  border: none;
+
+  .nav-link {
+    color: $theme6;
+    font-size: 14PX;
+    font-weight: 500;
+    background-color: none;
+    border: 0px;
+    padding: 4px 12px;
+    height: max-content;
+
+
+    &:hover {
+      border: 0px;
+    }
+  }
+}
+
+.tabel-2 {
+  width: 100%;
+  margin-top: 1.4rem;
+
+  .headrow {
+    background-color: $theme4;
+    border-bottom: 5px solid $theme1 ;
+
+    th {
+      padding: .7rem;
+    }
+
+    td {
+      padding: .3rem;
+    }
+  }
+}
+
+.table-responsive {
+  overflow-x: auto;
+
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
