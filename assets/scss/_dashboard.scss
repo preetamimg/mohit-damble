@@ -10,12 +10,15 @@
     overflow: hidden;
     display: flex;
     height: 100%;
+    // padding-bottom: 80px;
 
     .left {
       width: 230px;
       background-color: $theme4;
       height: 100%;
       overflow: hidden auto;
+      display: flex;
+      flex-direction: column;
     }
 
     .right {

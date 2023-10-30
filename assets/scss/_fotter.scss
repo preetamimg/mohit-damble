@@ -1,7 +1,7 @@
 .fotter {
   background-color: $theme4;
   width: 100%;
-  padding: 2rem;
+  padding: 1rem;
   margin-top: 1rem;
 
   .flogo {
@@ -100,7 +100,7 @@
   .fbtn-2 {
     border-radius: 5px;
     background: #6f64e4;
-    color: $theme1;
+    color: $theme2;
     text-align: center;
     transition: .3s ease-in-out;
     font-size: 12px;
@@ -115,7 +115,6 @@
 }
 
 .bottomfotter {
-  background-color: $theme4;
   border-top: 1px solid $theme1;
   padding: 12px 0;
 

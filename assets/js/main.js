@@ -18,7 +18,7 @@ var swiper = new Swiper(".liveWins", {
       spaceBetween: 10,
     },
      1300: {
-      slidesPerView: 11,
+      slidesPerView: 12,
       spaceBetween: 10,
     },
   },
@@ -60,7 +60,7 @@ var swiper = new Swiper(".playslider2", {
       spaceBetween: 10,
     },
     1300: {
-      slidesPerView: 6,
+      slidesPerView: 7,
       spaceBetween: 10,
     },
   },
